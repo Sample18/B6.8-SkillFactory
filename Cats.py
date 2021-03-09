@@ -1,0 +1,11 @@
+from pets import Cat
+Baron = Cat()
+Baron.setName('Барон')
+Baron.setGender('Мальчик')
+Baron.setAge(2)
+Sam = Cat()
+Sam.setName('Сэм')
+Sam.setGender('Мальчик')
+Sam.setAge(2)
+print('Имя: ' + Baron.getName() + '/', 'Пол: ' + Baron.getGender() + '/', 'Возраст:', Baron.getAge())
+print('Имя: ' + Sam.getName() + '/', 'Пол: ' + Sam.getGender() + '/', 'Возраст:',  Sam.getAge())
